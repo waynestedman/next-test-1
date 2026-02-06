@@ -1,40 +1,40 @@
 .page {
-  --background: #fafafa;
-  --foreground: #fff;
+  /* --background: var(--background-color);
+  --foreground: ;
+*/
+  --text-primary: var(--text-color);
+  --text-secondary: var(--green-medium);
 
-  --text-primary: #000;
-  --text-secondary: #666;
-
-  --button-primary-hover: #383838;
-  --button-secondary-hover: #f2f2f2;
-  --button-secondary-border: #ebebeb;
+  --button-primary-hover: var(--complimentary-blue);
+  --button-secondary-hover: var(--complimentary-blue-dark);
+  --button-secondary-border: var(--complimentary-blue-dark);
 
   display: flex;
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  font-family: var(--font-geist-sans);
-  background-color: var(--background);
+  font-family: var(--font-family-raleway);
+  /* background-color: var(--background); */
 }
 
 .main {
   display: flex;
   min-height: 100vh;
-  width: 100%;
+  /* width: 100%; */
   max-width: 800px;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  background-color: var(--foreground);
   padding: 120px 60px;
 }
 
 .intro {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   text-align: left;
   gap: 24px;
+  width: max-content;
 }
 
 .intro h1 {
@@ -128,14 +128,14 @@ a.secondary {
   }
 
   .page {
-    --background: #000;
-    --foreground: #000;
+    --background: var(--green-dark);
+    --foreground: var(--gray-dark);
 
-    --text-primary: #ededed;
-    --text-secondary: #999;
+    --text-primary: var(--tan-light);
+    --text-secondary: var(--green-medium);
 
-    --button-primary-hover: #ccc;
-    --button-secondary-hover: #1a1a1a;
-    --button-secondary-border: #1a1a1a;
+    --button-primary-hover: var(--complimentary-blue);
+    --button-secondary-hover: var(--complimentary-blue-dark);
+    --button-secondary-border: var(--complimentary-blue-dark);
   }
 }
