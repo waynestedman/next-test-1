@@ -9,7 +9,7 @@
   border: 2px solid var(--green-dark);
   border-radius: 16px;
   max-width: 600px;
-  margin: 1rem auto;
+  margin: 1rem auto 2rem auto;
   box-shadow: var(--box-shadow);
 }
 
@@ -23,7 +23,7 @@
 
 .w-card-title {
   text-align: center;
-  color: var(--complimentary-blue-dark);
+  color: var(--complimentary-blue);
 }
 
 .w-card-content {
@@ -57,13 +57,13 @@
 
   .go-back-button {
     background-color: unset;
-    color: var(--tan-dark);
+    color: var(--link-color);
     border: 2px solid var(--complimentary-blue-dark);
     border-radius: 32px;
 
     &:hover {
-      background-color: var(--complimentary-blue);
-      border-color: var(--complimentary-blue);
+      background-color: var(--complimentary-blue-dark);
+      border-color: var(--link-color);
       cursor: pointer;
     }
   }
