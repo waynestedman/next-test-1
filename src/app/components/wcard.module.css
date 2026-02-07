@@ -1,0 +1,71 @@
+/* styles for the W Card */
+
+.w-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--tan-light);
+  color: var(--green-dark);
+  border: 2px solid var(--green-dark);
+  border-radius: 16px;
+  max-width: 600px;
+  margin: 1rem auto;
+  box-shadow: var(--box-shadow);
+}
+
+.w-card-header {
+  background-color: var(--green-dark);
+  color: var(--tan-light);
+  padding: 0.5rem;
+  border-radius: 12px 12px 0 0;
+  box-shadow: var(--box-shadow);
+}
+
+.w-card-title {
+  text-align: center;
+  color: var(--complimentary-blue-dark);
+}
+
+.w-card-content {
+  text-align: left;
+  padding: 1rem;
+  .w-card-body {
+    padding: 1rem;
+    color: var(--green-dark);
+  }
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-block: 1rem;
+
+  .win-button {
+    background-color: var(--complimentary-purple-dark);
+    color: var(--tan-light);
+    border: 2px solid var(--complimentary-purple-dark);
+    border-radius: 32px;
+
+    &:hover {
+      background-color: var(--complimentary-purple);
+      border-color: var(--complimentary-purple);
+      cursor: pointer;
+    }
+  }
+
+  .go-back-button {
+    background-color: unset;
+    color: var(--tan-dark);
+    border: 2px solid var(--complimentary-blue-dark);
+    border-radius: 32px;
+
+    &:hover {
+      background-color: var(--complimentary-blue);
+      border-color: var(--complimentary-blue);
+      cursor: pointer;
+    }
+  }
+}
+
