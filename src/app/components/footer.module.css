@@ -1,0 +1,15 @@
+/* footer styles */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px 60px;
+  background-color: var(--complimentary-blue-dark);
+  border-radius: 16px 16px 0 0;
+}
+
+.footer p {
+  color: var(--tan-light);
+}
