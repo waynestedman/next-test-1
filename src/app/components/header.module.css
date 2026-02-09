@@ -1,0 +1,30 @@
+/* header styles */
+
+.header {
+  position: relative;
+  background-color: var(--green-light);
+  color: var(--tan-dark);
+  box-shadow: var(--box-shadow);
+  border-radius: 0 0 16px 16px;
+  padding: 1rem 4rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+
+  a {
+    color: var(--tan-dark);
+    text-decoration: none;
+    font-family: var(--font-family-raleway);
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+
+  .active {
+    color: var(--complimentary-purple-dark);
+    border-bottom: 4px solid var(--complimentary-purple-dark);
+  }
+}

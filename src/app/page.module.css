@@ -4,24 +4,20 @@
 */
   --text-primary: var(--text-color);
   --text-secondary: var(--green-medium);
-
   --button-primary-hover: var(--complimentary-blue);
   --button-secondary-hover: var(--complimentary-blue-dark);
   --button-secondary-border: var(--complimentary-blue-dark);
 
-  display: flex;
+  position: relative;
   min-height: 100vh;
-  align-items: center;
-  justify-content: center;
   font-family: var(--font-family-raleway);
   /* background-color: var(--background); */
 }
 
 .main {
   display: flex;
-  min-height: 100vh;
-  /* width: 100%; */
-  max-width: 800px;
+  /* min-height: 100vh; */
+  width: 100%;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
