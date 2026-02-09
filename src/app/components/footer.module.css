@@ -1,6 +1,10 @@
 /* footer styles */
 
 .footer {
+  position: absolute;
+  bottom: 0;
+  /* width: -webkit-fill-available; */
+  width: stretch;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -8,6 +12,7 @@
   padding: 20px 60px;
   background-color: var(--complimentary-blue-dark);
   border-radius: 16px 16px 0 0;
+  box-shadow: var(--box-shadow-reverse);
 }
 
 .footer p {

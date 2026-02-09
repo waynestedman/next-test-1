@@ -14,6 +14,9 @@ function Header() {
         <Link href="/" className={`${styles.logo} ${pathname === "/" ? styles.active : ""}`}>
           Home
         </Link>
+        <Link href="/modelViewer" className={pathname === "/modelViewer" ? styles.active : ""}>
+          Model Viewer
+        </Link>
         <Link href="/about" className={pathname === "/about" ? styles.active : ""}>
           About
         </Link>

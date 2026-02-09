@@ -21,7 +21,8 @@
   --text-color: var(--tan-light);
   --link-color: #646cff; 
   --background-color: var(--gray-dark);
-  --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  --box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.5);
+  --box-shadow-reverse: 0px -4px 8px 0px rgba(0,0,0,0.5);
   --card-bg-color: var(--gray-medium);
   --header-bg-color: var(--green-dark);
   --header-padding: 0.5rem;
