@@ -12,7 +12,7 @@ function Header() {
     <header className={styles.header}>
       <nav className={styles.nav}>
         <Link href="/" className={`${styles.logo} ${pathname === "/" ? styles.active : ""}`}>
-          Site
+          Home
         </Link>
         <Link href="/about" className={pathname === "/about" ? styles.active : ""}>
           About

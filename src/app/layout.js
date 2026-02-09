@@ -1,5 +1,6 @@
 import { Raleway, Cabin } from "next/font/google";
 import "./globals.css";
+import Header from "./components/Header";
 
 const raleway = Raleway({
   variable: "--font-family-raleway",
@@ -22,7 +23,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${raleway.variable} ${cabin.variable}`}>
-        {children}
+        <Header />
+        <main>{children}</main>
       </body>
     </html>
   );
