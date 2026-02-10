@@ -13,7 +13,7 @@ function ModelViewer() {
   return (
     <div className={styles.modelViewerPage}>
       <h3>Model Viewer</h3>
-      <div id="approot"></div>
+      <div id="threeroot"></div>
     </div>
   )
 }
