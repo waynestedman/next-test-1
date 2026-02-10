@@ -11,7 +11,7 @@ function ModelViewer() {
   }, []);
 
   return (
-    <div className={styles.modelViewerPage}>
+    <div className={"page " + styles.modelViewerPage}>
       <h3>Model Viewer</h3>
       <div id="threeroot"></div>
     </div>

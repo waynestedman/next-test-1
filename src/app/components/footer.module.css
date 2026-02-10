@@ -1,7 +1,7 @@
 /* footer styles */
 
 .footer {
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
   /* width: -webkit-fill-available; */
   width: stretch;
@@ -9,7 +9,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  padding: 20px 60px;
+  padding: 16px 60px;
   background-color: var(--complimentary-blue-dark);
   border-radius: 16px 16px 0 0;
   box-shadow: var(--box-shadow-reverse);

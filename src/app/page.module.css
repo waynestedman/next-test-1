@@ -14,13 +14,13 @@
   align-items: flex-start;
   justify-content: space-between;
   width: 100%;
-  /* min-height: 100vh; */
   padding: 120px 60px;
   font-family: var(--font-family-raleway);
   /* background-color: var(--background); */
 }
 
-.intro {
+/* legacy */
+/* .intro {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,9 +50,9 @@
 .intro a {
   font-weight: 500;
   color: var(--text-primary);
-}
+} */
 
-.ctas {
+/* .ctas {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -74,7 +74,7 @@
   width: fit-content;
   font-weight: 500;
 }
-
+ */
 a.primary {
   background: var(--text-primary);
   color: var(--background);

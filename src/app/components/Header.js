@@ -12,19 +12,19 @@ function Header() {
     <header className={styles.header}>
       <nav className={styles.nav}>
         <Link href="/" className={`${styles.logo} ${pathname === "/" ? styles.active : ""}`}>
-          Home
+          Library (Home)
         </Link>
         <Link href="/modelViewer" className={pathname === "/modelViewer" ? styles.active : ""}>
           Model Viewer
         </Link>
-        <Link href="/about" className={pathname === "/about" ? styles.active : ""}>
-          About
+        <Link href="/annotations" className={pathname === "/annotations" ? styles.active : ""}>
+          Annotations & Notes
         </Link>
-        <Link href="/blog" className={pathname === "/blog" ? styles.active : ""}>
-          Blog
+        <Link href="/edits" className={pathname === "/edits" ? styles.active : ""}>
+          Model Editing Tool
         </Link>
-        <Link href="/contact" className={pathname === "/contact" ? styles.active : ""}>
-          Contact
+        <Link href="/production" className={pathname === "/production" ? styles.active : ""}>
+          Production
         </Link>
       </nav>
     </header>
