@@ -6,10 +6,16 @@ export default function Home() {
   return (
     <div className={styles.homePage}>
       <WCard
-        title="Queued Model for machining"
+        title="Gears Model ready for machining"
         image="/machine-part.jpg" 
         alt="A machine part"
         body="This is a model of a machine part that is ready for review, annotation, and approval."
+      />
+      <WCard
+        title="5-Axis part model ready for machining"
+        image="/5-axis-machining-parts.png" 
+        alt="A 5-axis machine part"
+        body="This is a model of a 5-axis machine part that is ready for review, annotation, and approval."
       />
       {/* <Image
         className={styles.logo}

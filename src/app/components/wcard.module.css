@@ -8,7 +8,7 @@
   color: var(--green-dark);
   border: 2px solid var(--green-dark);
   border-radius: 16px;
-  max-width: 500px;
+  max-width: 450px;
   margin: 1rem auto 2rem auto;
   box-shadow: var(--box-shadow);
 }
