@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.homePage}>
       <WCard
-        title="Gears Model ready for machining"
+        title="Gears model ready for machining"
         image="/machine-part.jpg" 
         alt="A machine part"
         body="This is a model of a machine part that is ready for review, annotation, and approval."
