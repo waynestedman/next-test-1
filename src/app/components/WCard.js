@@ -1,10 +1,13 @@
 // custom card component
 "use client";
 
+import { useRouter } from "next/navigation";
+import Image from "next/image";
 import WButton from "./WButton";
 import styles from "./wcard.module.css";
 
 function WCard(props) {
+  const router = useRouter();
   return (
     <div className={`${styles["w-card"]} ${props.className}`}>
       {props.children}
@@ -16,13 +19,16 @@ function WCard(props) {
           {props.body}
         </p>
       </div>
+      <div className={`${styles["w-card-image"]} ${props.imageClass}`}>
+        {props.image && <Image src={props.image} alt={props.alt || ""} width={300} height={200} />}
+      </div>
       <div className={`${styles["button-container"]}`}>
-        <WButton className={`${styles["win-button"]}`} label="Click to Win!" onClick={() => {
-          console.log("Click to Win Button has been clicked!");
+        <WButton className={`${styles["modelViewButton"]}`} label="View model" onClick={() => {
+          router.push("/modelViewer");
           }}>
         </WButton>
-        <WButton className={`${styles["go-back-button"]}`} label="Go Back" onClick={() => {
-          console.log("Go Back button has been clicked");
+        <WButton className={`${styles["go-back-button"]}`} label="Send Back to Design" onClick={() => {
+          alert("Model has been sent back to design!");
         }}></WButton>
       </div>
     </div>

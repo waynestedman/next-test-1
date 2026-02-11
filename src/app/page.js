@@ -6,17 +6,19 @@ export default function Home() {
   return (
     <div className={styles.homePage}>
       <WCard
-        title="Cutomized Card!"
-        body="This is a custom card component that you can be used over and over again."
+        title="Queued Model for machining"
+        image="/machine-part.jpg" 
+        alt="A machine part"
+        body="This is a model of a machine part that is ready for review, annotation, and approval."
       />
-      <Image
+      {/* <Image
         className={styles.logo}
         src="/next.svg"
         alt="Next.js logo"
         width={100}
         height={20}
         priority
-      />
+      /> */}
       {/* <div className={styles.intro}>
         <h1>To get started, edit the page.js file.</h1>
         <p>
